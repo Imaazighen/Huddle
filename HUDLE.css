@@ -1,0 +1,119 @@
+body{
+    background-image: url(fond.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    }
+
+#HUDDLE{
+    background-image: url(object.png);
+    background-size: cover;
+    height: 42px;
+    width: 265px;
+    margin: 60px;
+    }
+
+#alignement{
+    margin-top: 8%;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+    font-family: Poppins;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+
+
+
+        #Image1{
+            background-image: url(Image1.png);
+            background-size: cover;
+            width: 70vh;
+            height:50vh;
+            margin-left: 7%;
+            }
+
+        #texte{
+            width: 530PX;
+            margin-top: 5vh;
+            font-size: 1.5vh;
+            }
+
+             #titre{
+                font-size: 300%;
+                -webkit-text-stroke: 2px;
+                color: white;
+                letter-spacing: 2px;
+                }
+
+             #paragraphe{
+                font-size: 120%;
+                margin-top: 25px;
+                color: white;
+                }
+
+             #button{
+                border: 1px solid black;
+                margin-top: 45px;
+                width: 270px;
+                height: 70px;
+                color: #684bb1;
+                font-size: 15px;
+                cursor: pointer;
+                border-radius: 28px;
+                box-shadow: 3px 6px ; color: #4e3885;
+                font-size: 110%;
+                }
+
+                     #button:hover{
+                        background-color: #E880E8;
+                        }
+
+#logo{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    float: inline-end ;
+    margin-top: 49%;
+    }
+
+        #fb{
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            border-radius: 50%;
+            background-image: url(fb.png);
+            background-size: cover;
+            }
+
+                 #fb:hover{
+                    background-image:url(fb2.png) ;
+                    }
+
+        #twitter{
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            border-radius: 50%;
+            background-image: url(twitter.png);
+            background-size: cover;
+            }
+
+                 #twitter:hover{
+                    background-image:url(twitter2.png) ;
+                    }
+
+        #insta{
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            border-radius: 50%;
+            background-image: url(insta.png);
+            background-size: cover;
+            }
+
+                #insta:hover{
+                    background-image: url(insta2.png);
+                }
